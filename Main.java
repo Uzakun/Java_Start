@@ -1,5 +1,3 @@
-package com.company;
-
 //Classes:-
 // Follows PascelNaming Convention
 // ex: MyNameLol
@@ -11,8 +9,9 @@ public class Main {
 // ex: myNameLol 
 
   public static void main(String[] args) {
-   
-    System.out.println("Hello World");
+    int b = 4, c = 8, d = 9, e;
+    e = b + c + d;
+    System.out.println(e); 
   }
 }
 
