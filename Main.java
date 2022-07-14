@@ -13,7 +13,7 @@ public class Main {
 // ex: myNameLol 
 
   public static void main(String[] args) {
-   
+    
 
 //              Data Types:
 //   Non Primitive data type:- Derive from the primitve data type
@@ -21,22 +21,23 @@ public class Main {
 //               Literals: 
 // Constant Value which can be assigned to a variable is called Literals.
 /* ex: float f1 = 4.3f or F; double d1=34.3d or D; or double d1=34.3; long l1=43643447647846736432463246l or L; String a = "baka"; etc. */
+    
                     // Note:
 /* long, short, byte, int can be used to store integer values deending on the number of intergers it can store.*/
 
                 //Input From The User
  
-    System.out.println("Taking input from the user: ");
-    Scanner sc= new Scanner(System.in);
-    System.out.println("Enter the First Number: ");
-    int a = sc.nextInt();
-    System.out.println("Enter the Second Number: ");
-    int b = sc.nextInt();
-    int sum = a + b;
-   System.out.println("The Sum is: ");
-    System.out.println(sum);
-  }
-}
+//     System.out.println("Taking input from the user: ");
+//     Scanner sc= new Scanner(System.in);
+//     System.out.println("Enter the First Number: ");
+//     int a = sc.nextInt();
+//     System.out.println("Enter the Second Number: ");
+//     int b = sc.nextInt();
+//     int sum = a + b;
+//    System.out.println("The Sum is: ");
+//     System.out.println(sum);
+//   }
+// }
 
                     // Note:
 /* String str = sc.next();
@@ -45,3 +46,23 @@ public class Main {
     String str = sc.nextLine();
     System.out.println(Str); but this will print every single thing written in one line with or without space, ex: My shits, Output = My shits.
 */
+
+    // Code to check whether inputed thing is integer or not
+//     boolean l;
+// System.out.println("Taking input from the user: ");
+//  Scanner sc= new Scanner(System.in);
+// System.out.println(sc.hasNextInt());
+   //  or
+//       l = sc.hasNextInt();
+//     System.out.println(l);
+//   }
+// }
+
+   // System.out.println(45>2); // this will return output= true.
+
+
+
+    
+  }
+}
+  
