@@ -23,7 +23,7 @@ public class Main {
 /* ex: float f1 = 4.3f or F; double d1=34.3d or D; or double d1=34.3; long l1=43643447647846736432463246l or L; String a = "baka"; etc. */
     
                     // Note:
-/* long, short, byte, int can be used to store integer values deending on the number of intergers it can store.*/
+/* long, short, byte, int can be used to store integer values depending on the number of intergers it can store.*/
 
                 //Input From The User
  
@@ -39,14 +39,7 @@ public class Main {
 //   }
 // }
 
-                    // Note:
-/* String str = sc.next();
-    System.out.println(Str); This will only print first word 
-    before space, ex: harry is a bad boy, output = harry.
-    String str = sc.nextLine();
-    System.out.println(Str); but this will print every single thing written in one line with or without space, ex: My shits, Output = My shits.
-*/
-
+  
     // Code to check whether inputed thing is integer or not
 //     boolean l;
 // System.out.println("Taking input from the user: ");
@@ -60,9 +53,20 @@ public class Main {
 
    // System.out.println(45>2); // this will return output= true.
 
+                   // String 
+  // String name = "lol";
+  //   System.out.println(name);
+  // int a = 69;
+  // System.out.printf("The value of a is: %d\n", a);
+  // System.out.format("The value of a is: %d", a); 
 
-
-    
+                   // Note:
+    /* String str = sc.next();
+    System.out.println(Str); This will only print first word 
+    before space, ex: harry is a bad boy, output = harry.
+    String str = sc.nextLine();
+    System.out.println(Str); but this will print every single thing written in one line with or without space, ex: My shits, Output = My shits.
+*/
   }
 }
   
