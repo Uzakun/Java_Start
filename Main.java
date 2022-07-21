@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Random;
 
 
 
@@ -53,7 +54,8 @@ public class Main {
 
    // System.out.println(45>2); // this will return output= true.
 
-                   // String 
+                   // String
+  // String name= new string("lol");
   // String name = "lol";
   //   System.out.println(name);
   // int a = 69;
@@ -67,6 +69,52 @@ public class Main {
     String str = sc.nextLine();
     System.out.println(Str); but this will print every single thing written in one line with or without space, ex: My shits, Output = My shits.
 */
+
+               // String Methods 
+   // String u = " Baka ";
+   //  System.out.println(u.length());
+   //  System.out.println(u.toLowerCase());
+   //  System.out.println(u.toUpperCase());
+   //  System.out.println(u.trim());
+   //  System.out.println(u.substring(2));
+   //  System.out.println(u.substring(1, 4));
+   //  System.out.println(u.replace('b','a'));
+   //  System.out.println(u.startsWith("ba"));
+    // System.out.println(u.endsWith("a "));
+   //  System.out.println(u.charAt(3));
+   //  System.out.println(u.indexOf("ka"));
+   //  String n = " Bakaka ";
+   //  System.out.println(n.indexOf("ka", 4 ));
+   //  System.out.println(n.lastIndexOf("k"));
+   //  System.out.println(n.lastIndexOf("k", 4));
+   //  System.out.println(u.equals(" Baka "));
+   //  System.out.println(u.equalsIgnoreCase(" baka "));
+
+    // String lol = " hello my name is <_____>";
+    // System.out.println(lol.replace("<_____>", "Shwetank"));
+   
+//                   Array
+    // int [] marks; //Syntax to make array
+    // marks = new int[5];
+    // int l = marks[1]= 10;
+    // System.out.println(l);
+
+    //declare and initialize:-
+    // int []marks = {12, 34,2,23,2,4,2};
+    // System.out.println(marks[3]);
+   //  int [] marks = {1,2,3,24,53,55,535,325,3532,5};
+   // for(int i =0; i < marks.length ;i++)
+   //  {
+   //    System.out.println(marks[i]);
+   //  }
+
+//             For-each loop:-
+//  int [] marks = {1,2,3,24,53,55,325,3532,5};
+// for(int element: marks){
+//   System.out.println(element);
+//easiest way to write every element of an array
+// }
+
+    
   }
 }
-  
