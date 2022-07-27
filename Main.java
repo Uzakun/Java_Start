@@ -123,14 +123,39 @@ public class Main {
    //  flats[1][0] = 201;
    //  flats[1][1] = 202;
    //  flats[1][2] = 203;
+   //  int [][] flats2 = {{1,2,4},{5,7,6}};
    //  for(int i = 0; i < flats.length; i++){
    //    for(int j =0; j < flats[i].length; j++){
    //      System.out.print(flats[i][j]);
+        
    //      System.out.printf("\t");
    //    }
    //    System.out.printf("\n");
    //  }
+   //   for(int i = 0; i < flats2.length; i++){
+   //    for(int j =0; j < flats2[i].length; j++){
+   //      System.out.print(flats2[i][j]);
+        
+   //      System.out.printf("\t");
+   //    }
+   //    System.out.printf("\n");
+   //  }
+
+  //       Reversing of an Array:-
     
+   //  int [] arr = {1,2,3,4,5,6,8,7,9,0};
+   //  int l = arr.length;
+   // int a = Math.floorDiv(l,2); //this can be used as finding greatest integer of any number, as it dont care about the decimal points even its given float
+   //  for(int i = 0; i < a; i++){
+   //  //Swap a[i] and a[l-1-i] 
+   //  int c;
+   //    c = arr[i];
+   //    arr[i] = arr[l-1-i];
+   //    arr[l-1-i] = c;
+   //  }
+   // for( int element: arr){
+   //   System.out.printf(element + "\t");
+   // }
     
   }
 }
